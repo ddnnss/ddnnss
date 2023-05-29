@@ -1,16 +1,19 @@
 // Scala program to find the number is 
 // EVEN or ODD using ternary operator
 
-object Sample{  
-    def main(args:Array[String]){  
-        var num:Int=0
-        var result:String=""
-        
-        print("Enter number: ")
-        num = scala.io.StdIn.readInt()
-        
-        result = if (num%2==0) "EVEN" else "ODD"
-        
-        println("Number is: "+result)
-    }  
+object EvenOdd{
+	def main(args: Array[String])
+	{
+		for(i<- 0 to 10)
+		{
+			if(i%2 ==0)
+			{
+				println(i + " is even");
+			}
+			else
+			{
+				println(i+ " is odd");
+			}
+		}
+	}
 }
